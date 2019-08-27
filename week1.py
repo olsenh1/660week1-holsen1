@@ -9,7 +9,7 @@
 
 
 from random import randrange
-from colorama import init, Fore, Back, Style
+from colorama import init, Fore, Back
 from prettytable import PrettyTable
 
 
@@ -42,6 +42,7 @@ def main():
         printPrettyTable(table)
     else:
         print("Invalid input! 'times' is not a number...")
+    input("Press enter to exit!")
 
 
 main()
