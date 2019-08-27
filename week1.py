@@ -42,7 +42,8 @@ def main():
         printPrettyTable(table)
     else:
         print("Invalid input! 'times' is not a number...")
-    input("Press enter to exit!")
+    print(Back.BLACK + Fore.WHITE + "Press enter to exit!")
+    input()
 
 
 main()
