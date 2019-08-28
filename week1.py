@@ -41,7 +41,7 @@ def main():
             table[randrange(6) + 1] += 1
         printPrettyTable(table)
     else:
-        print("Invalid input! 'times' is not a number...")
+        print("Invalid input! '{0}' is not a whole number...".format(answer))
     print(Back.BLACK + Fore.WHITE + "Press enter to exit!")
     input()
 
